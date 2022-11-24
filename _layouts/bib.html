@@ -1,8 +1,11 @@
 ---
 ---
-<!-- _layouts/bib.html -->
+      <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %} text-center">
+        {%- if entry.preview or entry.abbr -%}
+          {{entry.type}}
+        {%- endif -%}
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -15,7 +18,7 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
+            <a href="{{site.data.venues[entry.abbr].url}}"><abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}>{{entry.abbr}}</abbr></a>
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
@@ -23,7 +26,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-8 {{entry.type}}">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -37,6 +40,39 @@
           {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
             {% assign author_array_limit = site.max_author_limit %}
           {% endif %}
+
+          <!-- {%- for translator in entry.translator_array limit: author_array_limit -%}
+            {%- assign translator_is_self = false -%}
+            {%- assign translator_last_name = translator.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+            {%- if site.scholar.last_name contains translator_last_name -%}
+              {%- if site.scholar.first_name contains translator.first -%}
+                {%- assign translator_is_self = true -%}
+              {%- endif -%}
+            {%- endif -%}
+            {%- assign cotranslator_url = nil -%}
+            {%- if site.data.cotranslators[translator_last_name] -%}
+              {%- for cotranslator in site.data.cotranslators[translator_last_name] -%}
+                {%- if cotranslator.firstname contains translator.first -%}
+                  {%- assign cotranslator_url = cotranslator.url -%}
+                  {%- break -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+            
+            {%- if forloop.length > 1 -%}
+              {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+              {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
+            {%- endif -%}
+            {%- if author_is_self -%}
+              <em>{{author.first}} {{author.last}}</em>
+            {%- else -%}
+              {%- if cotranslator_url -%}
+                <a href="{{cotranslator_url}}">{{translator.first}} {{translator.last}}</a>
+              {%- else -%}
+                {{translator.first}} {{translator.last}}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%} -->
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
@@ -124,7 +160,7 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
-        {%- endif %}
+          {%- endif %}
         
           <!-- Links/Buttons -->
           <div class="links">

@@ -1,97 +1,102 @@
-- title: General Information
+- title: Personal info
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mohammad Qodrati
     - name: Languages
-      value: English, German
+      value: Persian, English
 
-- title: Education
+- title: Education & Awards
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MD in General Medicine
+      institution: Tehran University of Medical Sciences, Tehran, Iran.
+      year: 2012 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "QS World University Ranking in medicine #301-350"
+        - GPA of 3.86 / 4
+        - "Ranked #9 nationwide (top 2.5%) at the national comprehensive medical pre-internship exam in Sep 2018."
+        - title: 'Thesis: "Epidemiology and antimicrobial susceptibility pattern of <i>Staphylococcus aureus</i> isolates from hospitalized patients at a tertiary hospital in Tehran, Iran, 2018 – 2019."'
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Ten years after the previous reports, I started and accomplished a long-awaited project to help clinicians and policymakers fight Staphylococcus aureus by giving insight about its then-current ecology.
+    - title: Secondary school diploma
+      institution: Boshruyeh, South Khorasan, Iran.
+      year: 2007 - 2012
       description:
-        - Description 1.
-        - Description 2.
+        - "Ranked #11 nationwide among ~450K candidates in <i>Konkur 2012</i> (Iranian National University Entrance Exam). Scored 97% in physics, 93% in maths, etc."
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: <a href="https://en-ircha.tums.ac.ir/" target="_blank">Iranian Research Center for HIV/AIDS</a>
+      year: 2018 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Academic writing, revising, and publishing journal articles – especially related to health information technology (HIT) and management (HIM).
+        - 'Supervisor: SeyedAhmad SeyedAlinaghi, MD, MPhil, PhD, Assoc. Prof.'
+    - title: Medical board and health information consultant
+      institution: <a href="https://synappsgroup.com/" href="_blank">SynApps Group</a>, Tehran, Iran.
+      year: Jan ’20 - Now
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Designing data models and structures based on the <a href="http://www.hl7.org/fhir/" target="_blank">HL7 FHIR</a> logic and resources, and incorporation of terminology systems (SNOMED CT, LOINC).
+        - Projects include computerized physician order entry (CPOE) and digitization of different hospital paper-based forms.
+    - title: General Physician
+      institution: <a href="https://shafahospital.bums.ac.ir/" target="_blank">Shafā Hospital</a>, Boshruyeh, South Khorasan, Iran.
+      year: Nov ’20 - Aug ’22
       description:
+        - of the emergency department, responsible for initial visit and management, re-evaluation, and then patient disposition
+        - on-call locum tenens for the inpatient, specialty wards
+        - available for some primary care visits
+    - title: Intern doctor / Clinical Clerkship Student
+      institution: Affiliated hospitals, Tehran University of Medical Sciences.
+      year: Feb ’16 - Apr ’20
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Co-founding <i>Tab-e Teb</i> group
+      year: 2014 - 2017
+      description:
+        - aimed to improve medical education
+        - included a website plus an internet forum
+        - published leaflets and question banks
+    - title: Web-based student portals
+      year: 2013 – 2015
+      description:
+        - online grade reporting
+        - Q&A with teaching professors of the medical school
+    - title: 2014 FIFA World Cup prediction website
+      year: 2014
+      description: For the Fall 2012 cohort of medical students
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Computer Knowledge / Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 'Advanced <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨🟨⬜️</small>'
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - PHP, SQL, XHTML, CSS
+        - Wordpress, MovableType <i>(R I P)</i>
+        - Adobe Photoshop
+        - MS Office, Google Drive
+    - title: 'Intermediate <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨⬜️⬜️</small>'
       items:
-        - Description 1.
-        - Description 2.
+        - Python
+        - Object-oriented Programming (OOP)
+        - Drupal
+        - Flutter
+    - title: 'Beginner <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨⬜️⬜️⬜️</small>'
+      items:
+        - Artificial intelligence / Machine learning
+        - RDF
 
-- title: Other Interests
+- title: Licenses & Certificates / Selected MOOCs
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Accredited</b> general physician by Iran Medical Council (IRIMC) since Aug 2020
+    - <b>“Introduction to Healthcare”</b> via Coursera, authorized by Stanford University
+    - <b>“Applied Text Mining in Python”</b> via Coursera, authorized by University of Michigan
+
+- title: 
+  type: list
+  contents:
+    - '<b>Hobbies:</b> Cooking, literature and linguistics, amateur astronomy, traveling, trekking.'

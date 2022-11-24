@@ -22,12 +22,12 @@
         {{ site.blog_nav_title }} | {{ title }}
     {%- elsif page.title != "blank" and page.url != "/" -%}
         {%- if page.title == nil or page.title == "" -%}
-            {{ page.date | date: "%Y" }} | {{ title }}
+            {{ page.date | date: "%Y" }} | {{ title }} - Personal Website
         {%- else -%}
-            {{ page.title }} | {{ title }}
+            {{ page.title | capitalize }} | {{ title }} - Personal Website
         {%- endif -%}
     {%- else -%}
-        {{ title }}
+        {{ title }} - Personal Website
     {%- endif -%}
     </title>
     <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />

@@ -2,18 +2,14 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+      <!-- about.html -->
 
+      <div class="post" style="position: relative;">
         <article>
+
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <!--float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}-->
+          <div class="profile" style="position: absolute; top: 0; right: 0;">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -28,38 +24,48 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
+            <header class="post-header">
+              <h1 class="post-title text-center">
+                <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+              </h1>
+              <hr width="20%">
+              <p class="desc text-center">{{ page.subtitle }}</p>
+              <hr width="20%">
+              <p class="desc text-center moto">{{ page.motto }}</p>
+            </header>  
+          </div>
+        {%- endif %}
+
+          <div class="clearfix" style="max-width: 500px;">
+            {{ content }}
+          </div>
+
+          <!-- Social -->
+          <div class="social">
+            <h2>reach</h2>
+            {%- if page.social %}
+              <div class="contact-icons">
+              {% include social.html %}
+              </div>
+            {%- endif %}
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
             {%- if page.profile.address %}
-            <div class="address">
+            <div class="mail address">
               {{ page.profile.address }}
             </div>
             {%- endif %}
-          </div>
-          {%- endif %}
-
-          <div class="clearfix">
-            {{ content }}
           </div>
 
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}
           {%- endif %}
+
           {% if page.selected_papers -%}
             <!-- Selected papers -->
             {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
-
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
           {%- endif %}
         </article>
 

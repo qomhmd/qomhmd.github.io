@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: >
+  physician <br>tech-enthusiast <br>protopianist
+motto: <a href="https://www.womanlifefreedom.today/" target="_blank">"Woman, Life, Freedom"</a>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    Mail address: 9781674737 Boshruyeh, South Khorasan, Iran
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! Gald to meet YOU.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm an MD graduate in general medicine from Tehran University of Medical Sciences. Since 2020, I've been working as another primary physician in the only hospital of my hometown, visiting the outpatient and emergency ward care-seekers.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Having been born in a <a href="https://en.wikipedia.org/wiki/Boshruyeh" title="Boshruyeh, Khorasan, Iran" target="_blank">somewhat rural area</a>, I had no option but to lead the insurmountable life. After intermittent tries with the help of my acquiantance, I've often become successful so far, thus wish to keep going better in the future.
+
+Software programming has become my currently other vocation since teenage years. Generally, I love everything that can do something not for the sake of itself but to live smoother. I'm almost always eager for contributing to a better world 😃
+
+You can [ read more... ] through the links in the navigation bar above, as well as selected/recent content below.
