@@ -85,6 +85,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://tylerbarna.com" target="_blank">★</a>
 <a href="https://daviddmc.github.io/" target="_blank">★</a>
 <a href="https://andreaskuster.ch/" target="_blank">★</a>
+<a href="https://qomhmd.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
