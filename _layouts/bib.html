@@ -32,16 +32,24 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
-          <!-- Author -->
-          <div class="author">
-          {% assign author_array_size = entry.author_array | size %}
 
-          {% assign author_array_limit = author_array_size %}
-          {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
-            {% assign author_array_limit = site.max_author_limit %}
-          {% endif %}
+            {%- if entry.note -%}
+            <div class="note">
+              {{ entry.note }}
+            </div>
+            {%- endif -%}
 
-          <!-- {%- for translator in entry.translator_array limit: author_array_limit -%}
+            <!-- Translator & Author -->
+            {% assign author_array_size = entry.author_array | size %}
+
+            {% assign author_array_limit = author_array_size %}
+            {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
+              {% assign author_array_limit = site.max_author_limit %}
+            {% endif %}
+
+            <div class="translator author">
+            {%- for translator in entry.translator_array -%}
+            {%- if forloop.first == true -%}Translated by&nbsp;{%- endif -%}
             {%- assign translator_is_self = false -%}
             {%- assign translator_last_name = translator.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
             {%- if site.scholar.last_name contains translator_last_name -%}
@@ -63,8 +71,8 @@
               {%- if forloop.first == false -%},&nbsp;{%- endif -%}
               {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
             {%- endif -%}
-            {%- if author_is_self -%}
-              <em>{{author.first}} {{author.last}}</em>
+            {%- if translator_is_self -%}
+              <em>{{translator.first}} {{translator.last}}</em>
             {%- else -%}
               {%- if cotranslator_url -%}
                 <a href="{{cotranslator_url}}">{{translator.first}} {{translator.last}}</a>
@@ -72,8 +80,10 @@
                 {{translator.first}} {{translator.last}}
               {%- endif -%}
             {%- endif -%}
-          {%- endfor -%} -->
+            {%- endfor -%}
+          </div>
 
+          <div class="author">
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
             {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
@@ -148,7 +158,7 @@
           {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- else -%}
-            {%- capture entrytype -%}{%- endcapture -%}
+            {%- capture entrytype -%}<!--em>{{entry.publisher}}</em-->{%- endcapture -%}
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
