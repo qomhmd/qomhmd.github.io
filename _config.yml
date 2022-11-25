@@ -329,7 +329,8 @@ enable_progressbar:         true   # enables a horizontal progress bar linked to
 # -----------------------------------------------------------------------------
 
 algolia:
-  application_id: 'CP7ZDH0UNA'
+  application_id: CP7ZDH0UNA
+  index_name: qomhmd_jekyll_site
 
 # -----------------------------------------------------------------------------
 # Library versions
