@@ -23,6 +23,8 @@
     {%- elsif page.title != "blank" and page.url != "/" -%}
         {%- if page.title == nil or page.title == "" -%}
             {{ page.date | date: "%Y" }} | {{ title }} - Personal Website
+        {%- elsif page.title == "CV" -%}
+            Curriculum vitae | {{ title }} - Personal Website
         {%- else -%}
             {{ page.title | capitalize }} | {{ title }} - Personal Website
         {%- endif -%}
