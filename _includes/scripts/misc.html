@@ -12,3 +12,61 @@
 
   <!-- Load Common JS -->
   <script defer src="{{ '/assets/js/common.js' | relative_url }}"></script>
+
+  <script>
+    const searchClient = algoliasearch(
+      'latency',
+      '6be0576ff61c053d5f9a3225e2a90f76'
+    );
+
+    const search = instantsearch({
+      indexName: 'instant_search',
+      searchClient,
+    });
+
+    // After the `searchBox` widget
+    search.addWidgets([
+      instantsearch.widgets.searchBox({
+        container: '#searchbox',
+      }),
+
+      /*
+      instantsearch.widgets.clearRefinements({
+        container: '#clear-refinements',
+      }),
+      */
+    
+      /*
+      instantsearch.widgets.refinementList({
+        container: '#brand-list',
+        attribute: 'brand',
+      }),
+      */
+    
+      instantsearch.widgets.configure({
+        hitsPerPage: 8
+      }),
+
+      /*
+      instantsearch.widgets.hits({
+        container: '#hits',
+        templates: {
+          item: `
+            <div>
+              <img src="{{image}}" align="left" alt="{{name}}" />
+              <div class="hit-name">
+                {{#helpers.highlight}}{ "attribute": "name" }{{/helpers.highlight}}
+              </div>
+              <div class="hit-description">
+                {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
+              </div>
+              <div class="hit-price">\${{price}}</div>
+            </div>
+          `,
+        },
+      }),
+      */
+    ]);
+
+    search.start();
+  </script>
