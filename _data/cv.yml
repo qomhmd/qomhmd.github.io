@@ -75,7 +75,7 @@
     - title: 'Advanced <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨🟨⬜️</small>'
       items: 
         - PHP, SQL, XHTML, CSS
-        - Wordpress, MovableType <i>(R I P)</i>
+        - Wordpress, MovableType <i>(not opensource anymore)</i>
         - Adobe Photoshop
         - MS Office, Google Drive
     - title: 'Intermediate <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨⬜️⬜️</small>'
@@ -92,11 +92,25 @@
         - LaTeX
 
 - title: Licenses & Certificates / Selected MOOCs
-  type: list
+  type: nested_list
   contents:
-    - <b>Accredited</b> general physician by Iran Medical Council (IRIMC) since Aug 2020
-    - <b>“Introduction to Healthcare”</b> via Coursera, authorized by Stanford University
-    - <b>“Applied Text Mining in Python”</b> via Coursera, authorized by University of Michigan
+    - title: Accredited general physician
+      items:
+        - by Iran Medical Council (IRIMC) since Aug 2020
+    - title: '<a href="https://www.kaggle.com/"><img height="30" src="/assets/img/kaggle-logo.svg" title="Kaggle" alt="Kaggle" class="float-right" style="width: auto;"></a>'
+      items:
+        - Computer Vision <small><a class="desc" href="/assets/img/kaggle_cv.png">(cert)</a></small>
+        - Intro to Deep Learning <small><a class="desc" href="/assets/img/kaggle_dl_intro.png">(cert)</a></small>
+        - Intermediate Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_med.png">(cert)</a></small>
+        - Intro to Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_intro.png">(cert)</a></small>
+        - Pandas <small><a class="desc" href="/assets/img/kaggle_pd.png">(cert)</a></small>
+    - title: '<a href="https://www.coursera.org/"><img height="16" src="/assets/img/coursera.svg" title="Coursera" alt="Coursera" class="float-right" style="width: auto"></a>'
+      items:
+        - <b>Introduction to Healthcare</b> authorized by Stanford University
+        - <b>Applied Text Mining in Python</b> authorized by University of Michigan
+    - title: Others
+      items:
+        - <a href="https://www.udacity.com/course/introduction-to-python--ud1110)">Introduction to Python Programming</a> via Udacity
 
 - title: 
   type: list
