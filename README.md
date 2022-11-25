@@ -26,26 +26,12 @@ If you like the theme, give it a star!
 
   * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
   * [Getting started](#getting-started)
-    + [Installation](#installation)
-      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
-      - [Local Setup (Standard)](#local-setup-standard)
-      - [Deployment](#deployment)
-      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    + [FAQ](#faq)
+    + [Deployment](#deployment)
+    + [Upgrading from a previous version](#upgrading-from-a-previous-version)
   * [Features](#features)
     + [Publications](#publications)
     + [Collections](#collections)
-    + [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math & code](#full-support-for-math--code)
-      - [Photos](#photos)
-    + [Other features](#other-features)
-      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
-      - [Theming](#theming)
-      - [Social media previews](#social-media-previews)
-      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-  * [Contributing](#contributing)
-    + [Core Contributors](#core-contributors)
+  * [Core Contributors](#core-contributors)
   * [License](#license)
 
 ## Getting started
@@ -224,9 +210,7 @@ You can implement your own buttons by editing the bib.html file.
 
 ---
 
-For issues/bugs, please open an issue using the appropriate template.
-
-### Maintainers
+## Maintainers
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
