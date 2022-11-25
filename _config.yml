@@ -325,6 +325,13 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
 # -----------------------------------------------------------------------------
+# Algolia Search
+# -----------------------------------------------------------------------------
+
+algolia:
+  application_id: 'CP7ZDH0UNA'
+
+# -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
 
