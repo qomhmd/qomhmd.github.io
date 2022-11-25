@@ -94,17 +94,17 @@
 - title: Licenses & Certificates / Selected MOOCs
   type: nested_list
   contents:
-    - title: Accredited general physician
+    - title: <b>Accredited general physician</b>
       items:
         - by Iran Medical Council (IRIMC) since Aug 2020
-    - title: '<a href="https://www.kaggle.com/"><img height="30" src="/assets/img/kaggle-logo.svg" title="Kaggle" alt="Kaggle" class="float-right" style="width: auto;"></a>'
+    - title: 'Kaggle <a href="https://www.kaggle.com/"><img height="30" src="/assets/img/kaggle-logo.svg" title="Kaggle" alt="Kaggle" class="float-right" style="width: auto;"></a>'
       items:
         - Computer Vision <small><a class="desc" href="/assets/img/kaggle_cv.png">(cert)</a></small>
         - Intro to Deep Learning <small><a class="desc" href="/assets/img/kaggle_dl_intro.png">(cert)</a></small>
         - Intermediate Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_med.png">(cert)</a></small>
         - Intro to Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_intro.png">(cert)</a></small>
         - Pandas <small><a class="desc" href="/assets/img/kaggle_pd.png">(cert)</a></small>
-    - title: '<a href="https://www.coursera.org/"><img height="16" src="/assets/img/coursera.svg" title="Coursera" alt="Coursera" class="float-right" style="width: auto"></a>'
+    - title: 'Coursera <a href="https://www.coursera.org/"><img height="16" src="/assets/img/coursera.svg" title="Coursera" alt="Coursera" class="float-right" style="width: auto"></a>'
       items:
         - <b>Introduction to Healthcare</b> authorized by Stanford University
         - <b>Applied Text Mining in Python</b> authorized by University of Michigan
