@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/qomhmd
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mhmd.qodrati.ir
+  * I am qomhmd (https://keybase.io/qomhmd) on keybase.
+  * I have a public key ASBdobI9ltXtlRXTxaOcfzyqww-7CGZodUE3Rk8Jc1LdAQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205da1b23d96d5ed9515d3c5a39c7f3caac30fbb086668754137464f097352dd010a",
+      "host": "keybase.io",
+      "kid": "01205da1b23d96d5ed9515d3c5a39c7f3caac30fbb086668754137464f097352dd010a",
+      "uid": "60c6e957511a4bb16d266e4fe9d9e519",
+      "username": "qomhmd"
+    },
+    "merkle_root": {
+      "ctime": 1669410587,
+      "hash": "7146e06c5008acbd5a651d1d711a92618d7406d3b709b8ac7e4bf11639e8c1dc674596e80bbab00e620249b24fefce5757ef19b9957aa6ff877894c2dab310ca",
+      "hash_meta": "af42fd7683076f40e5402bb37de786c56562d7e0236f4adb42f101978a52b273",
+      "seqno": 23615801
+    },
+    "service": {
+      "entropy": "eELFwsdi+X4lsFOvWsesVO/K",
+      "hostname": "mhmd.qodrati.ir",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1669410652,
+  "expire_in": 504576000,
+  "prev": "14864a0654f74dfb910c69855474831339767cb7b6f4f82dbf38544bdd8b8369",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXaGyPZbV7ZUV08WjnH88qsMPuwhmaHVBN0ZPCXNS3QEKp3BheWxvYWTESpcCB8QgFIZKBlT3TfuRDGmFVHSDEzl2fLe29PgtvzhUS92Lg2nEIJGT0eTP+hPvtEsXiZNGJhxBwbvLBjm4JPlL7U0hMpMGAgHCo3NpZ8RATMpzgtTu7a8vmDlCYxGu6/2NK4v8Vvi5HilN4GrzBhjQ/xcG25DfuIS4uBGJoyeV69BtH3xqZpIG7FvD56UABahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOYxXe+xO/vES/XliM0pjN8QqhIQiJZ2Kpuf1D/HwT1Bo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/qomhmd
