@@ -1,12 +1,19 @@
 ---
-layout: page
+layout: default
 permalink: /404.html
 title: "Page not found"
 description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
+redirect: false
+css_class: p404
+no_header: true
+no_footer: true
 ---
-<figure>
-    <img src="/assets/img/Vincent_vega_404.webp">
-    <figcaption>by <a href="https://dribbble.com/shots/5592604-404-Illustration" target="_blank">Ilya Tyulin</a></figcaption>
-</figure>
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl }}/">here</a>.</p>
+
+<div class="text-center">
+    <figure>
+        <img src="/assets/img/Vincent_vega_404.webp">
+        <figcaption><small class="desc">(source: <a href="https://dribbble.com/shots/5592604-404-Illustration" target="_blank">Ilya Tyulin</a>)</small></figcaption>
+    </figure>
+
+    <p>You will be redirected to the main page within 3 seconds. <br>If not redirected, please click <a href="{{ site.baseurl }}/">here</a>.</p>
+</div>

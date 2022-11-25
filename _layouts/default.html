@@ -10,18 +10,24 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %} {{ page.css_class }}">
 
+    {%- if page.no_header -%}
+    {%- else -%}
     <!-- Header -->
     {%- include header.html %}
+    {%- endif -%}
 
     <!-- Content -->
     <div class="container mt-5">
       {{ content }}
     </div>
 
+    {%- if page.no_footer -%}
+    {%- else -%}
     <!-- Footer -->
     {%- include footer.html %}
+    {%- endif -%}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}

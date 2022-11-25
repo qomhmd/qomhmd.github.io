@@ -35,6 +35,13 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+.p404 {
+  background-color: #f5f7f9;
+}
+
+.desc, .desc a {
+  color: var(--global-text-color-light) !important;
+}
 
 /******************************************************************************
  * Publications
