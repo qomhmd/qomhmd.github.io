@@ -6,6 +6,10 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Mohammad
 middle_name: 
 last_name: Qodrati
+locale:
+  first_name: محمّد
+  middle_name: 
+  last_name: قدرتی
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal website and portfolio of a tech-enthusiast, general physician who is interested in and familiar to programming
