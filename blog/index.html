@@ -99,7 +99,9 @@ pagination:
 {%- if page.social %}
 <div class="social">
   <div class="contact-icons">
-  {% include social.html %}
+    {%- if site.rss_icon -%}
+    <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+    {% endif %}
   </div>
 </div>
 {%- endif %}
