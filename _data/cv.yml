@@ -76,9 +76,10 @@
       items: 
         - PHP, XHTML, CSS
         - SQL, Database design
-        - Wordpress, MovableType <i>(not opensource anymore)</i>
+        - Wordpress, MovableType <i>(not open-source anymore)</i>
         - Adobe Photoshop
         - MS Office, Google Drive
+        - Zotero
     - title: 'intermediate <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨⬜️⬜️</small>'
       items:
         - Python
