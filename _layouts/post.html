@@ -41,7 +41,7 @@ layout: default
   </article>
 
   {%- if site.disqus_shortname and page.comments -%}
-    <div id="disqus_thread" style="max-width: {{ site.max_width }}; margin: 0 auto"></div>
+    <div id="disqus_thread" style="max-width: 600px; margin: 0 auto"></div>
     <script>
       var disqus_config = function () {
         this.page.url = '{{ site.url }}{{ page.url }}';
