@@ -95,3 +95,9 @@ pagination:
   {% include pagination.html %}
 
 </div>
+{%- if page.social %}
+  <div class="contact-icons">
+  {% include social.html %}
+  </div>
+{%- endif %}
+
