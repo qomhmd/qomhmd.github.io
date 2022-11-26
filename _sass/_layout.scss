@@ -43,6 +43,11 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light) !important;
 }
 
+#disqus_thread {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 2em;
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
