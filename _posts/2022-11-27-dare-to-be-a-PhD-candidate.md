@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Can I bear being a PhD candidate in the future?
-date: 2022-11-26 00:01:00
+title:  Dare to be a PhD candidate?
+date: 2022-11-27 00:01:00
 description: 
 tags: education
 categories: 
