@@ -75,9 +75,10 @@
     - title: 'Advanced <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨🟨⬜️</small>'
       items: 
         - PHP, SQL, XHTML, CSS
-        - Wordpress, MovableType <i>(R I P)</i>
+        - Wordpress, MovableType <i>(not open-source anymore)</i>
         - Adobe Photoshop
         - MS Office, Google Drive
+        - Zotero
     - title: 'Intermediate <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨⬜️⬜️</small>'
       items:
         - Python
