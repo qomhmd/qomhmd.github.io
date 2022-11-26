@@ -79,6 +79,7 @@
         - Wordpress, MovableType <i>(not open-source anymore)</i>
         - Adobe Photoshop
         - MS Office, Google Drive
+        - HL7 FHIR
         - Zotero
     - title: 'intermediate <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨🟨⬜️⬜️</small>'
       items:
@@ -90,6 +91,7 @@
     - title: 'beginner <small style="float: right; font-style: normal; font-size: 70%;">🟨🟨⬜️⬜️⬜️</small>'
       items:
         - Artificial intelligence / Machine learning
+        - IBM SPSS Statistics
         - RDF
     - title: 'basic <small style="float: right; font-style: normal; font-size: 70%;">🟨⬜️⬜️⬜️⬜️</small>'
       items:
