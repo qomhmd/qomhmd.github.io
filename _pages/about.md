@@ -23,6 +23,6 @@ I'm an MD graduate in general medicine from Tehran University of Medical Science
 
 Having been born in a <a href="https://en.wikipedia.org/wiki/Boshruyeh" title="Boshruyeh, Khorasan, Iran" target="_blank">somewhat rural area</a>, I had no option but to lead the insurmountable life. After intermittent tries with the help of my acquiantance, I've often become successful so far, thus wish to keep going better in the future.
 
-Software programming has become my currently other vocation since teenage years. Generally, I love everything that can do something not for the sake of itself but to live smoother. I'm almost always eager for contributing to a better world 😃
+Software programming has become my currently other vocation since teenage years. Generally, I love everything that can do something not for the sake of itself but as a means to ... I'm almost always eager for contributing to a better world 😃
 
 You can [ read more... ] through the links in the navigation bar above, as well as selected/recent content below.
