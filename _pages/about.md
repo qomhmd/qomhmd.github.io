@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: >
   physician <br>tech-enthusiast <br>protopianist
-motto: <a href="https://www.womanlifefreedom.today/" target="_blank">"Woman, Life, Freedom"</a>
+motto: '<a href="https://www.womanlifefreedom.today/" target="_blank">"Woman, Life, Freedom"</a><hr width="30%"><a width="50" href="http://ps752justice.com/"><img src="/assets/img/The_Association_of_Families_of_Flight_PS752_Victims_logo.svg.png alt="The Association of Families of Flight PS752 Victims logo" title="#PS752"></a>'
 profile:
   align: right
   image: prof_pic.jpg
