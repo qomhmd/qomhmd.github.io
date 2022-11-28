@@ -2,7 +2,7 @@
 layout: post
 title:  Best Anki Settings
 date: 2022-11-28 00:01:00
-description: I miss my childhood memory
+description: Regain the childhood days beauty of having an incredible memory
 tags: education
 categories: 
 comments: true
