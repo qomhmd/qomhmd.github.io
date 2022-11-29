@@ -111,7 +111,7 @@ google_analytics: G-VVW0B38NES # your Goole Analytics measurement ID (format: G-
 panelbear_analytics: Ge5XTrWwFey # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: Qg_wdTq_z-cXa4YAMOIfDRTp7XRbZ-QGTRWaYMl9Pyo # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification: AC80D82EC569900638E30B7630E14E0C # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -316,7 +316,7 @@ jekyll-diagrams:
 enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: true  # enables panelbear analytics
 enable_google_verification: true  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
+enable_bing_verification:   true  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
