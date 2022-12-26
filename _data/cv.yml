@@ -19,7 +19,7 @@
       description:
         - "QS World University Ranking in medicine #301-350"
         - GPA of 3.86 / 4
-        - "Ranked #9 nationwide (top 2.5%) at the national comprehensive medical pre-internship exam in Sep 2018."
+        - "<strong>Ranked #9</strong> nationwide (top 2.5%) at the national comprehensive medical pre-internship exam in Sep 2018."
         - title: 'Thesis: "Epidemiology and antimicrobial susceptibility pattern of <i>Staphylococcus aureus</i> isolates from hospitalized patients at a tertiary hospital in Tehran, Iran, 2018 – 2019."'
           contents:
             - Ten years after the previous reports, I started and accomplished a long-awaited project to help clinicians and policymakers fight Staphylococcus aureus by giving insight about its then-current ecology.
@@ -27,7 +27,7 @@
       institution: Boshruyeh, South Khorasan, Iran.
       year: 2007 - 2012
       description:
-        - "Ranked #11 nationwide among ~450K candidates in <i>Konkur 2012</i> (Iranian National University Entrance Exam). Scored 97% in physics, 93% in maths, etc."
+        - "<strong>Ranked #11</strong> nationwide among ~450K candidates in <i>Konkur 2012</i> (Iranian National University Entrance Exam). Scored 97% in physics, 93% in maths, etc."
 
 - title: Experience
   type: time_table
