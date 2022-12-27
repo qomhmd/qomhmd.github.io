@@ -8,7 +8,7 @@
     - name: Address
       value: 9781674737, Boshruyeh, South Khorasan, Iran.
     - name: E-mail
-      value: '<img src="/assets/img/doc/addre.png" style="width: 190px">'
+      value: '<img src="/assets/img/addre.png" style="width: 190px">'
 
 - title: Education & Awards
   type: time_table
