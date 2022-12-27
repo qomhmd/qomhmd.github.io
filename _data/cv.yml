@@ -8,12 +8,12 @@
     - name: Address
       value: 9781674737, Boshruyeh, South Khorasan, Iran.
     - name: E-mail
-      value: '<img src="/assets/img/addre.png" style="width: 190px">'
+      value: '<img src="/assets/img/doc/addre.png" style="width: 190px">'
 
 - title: Education & Awards
   type: time_table
   contents:
-    - title: <a href="/assets/img/MD-diploma-Eng-front.JPG" title="Mohammad Qodrati's MD certificate in General Medicine">MD in General Medicine</a>
+    - title: <a href="/assets/img/doc/MD-diploma-Eng-front.JPG" title="Mohammad Qodrati's MD diploma in General Medicine">MD in General Medicine</a>
       institution: Tehran University of Medical Sciences, Tehran, Iran.
       year: 2012 - 2020
       description:
@@ -28,6 +28,8 @@
       year: 2007 - 2012
       description:
         - "<strong>Ranked #11</strong> nationwide among ~450K candidates in <i>Konkur 2012</i> (Iranian National University Entrance Exam). Scored 97% in physics, 93% in maths, etc."
+        - <a href="/assets/img/doc/highschool-diploma.JPG" title="Mohammad Qodrati's highschool diploma in Natural Sciences and Mathematics">Highschool diploma</a>
+        - <a href="/assets/img/doc/precollege-year-diploma.JPG" title="Mohammad Qodrati's precollege-year grede diploma in Natural Sciences and Mathematics">Precollege-year grade diploma</a>
 
 - title: Experience
   type: time_table
@@ -113,11 +115,11 @@
         - by Iran Medical Council (IRIMC) since Aug 2020
     - title: 'Kaggle <a href="https://www.kaggle.com/" class="float-right"><img height="30" src="/assets/img/kaggle-logo.svg" title="Kaggle" alt="Kaggle" style="width: auto;"></a>'
       items:
-        - Computer Vision <small><a class="desc" href="/assets/img/kaggle_cv.png">(cert)</a></small>
-        - Intro to Deep Learning <small><a class="desc" href="/assets/img/kaggle_dl_intro.png">(cert)</a></small>
-        - Intermediate Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_med.png">(cert)</a></small>
-        - Intro to Machine Learning <small><a class="desc" href="/assets/img/kaggle_ml_intro.png">(cert)</a></small>
-        - Pandas <small><a class="desc" href="/assets/img/kaggle_pd.png">(cert)</a></small>
+        - Computer Vision <small><a class="desc" href="/assets/img/doc/kaggle_cv.png">(cert)</a></small>
+        - Intro to Deep Learning <small><a class="desc" href="/assets/img/doc/kaggle_dl_intro.png">(cert)</a></small>
+        - Intermediate Machine Learning <small><a class="desc" href="/assets/img/doc/kaggle_ml_med.png">(cert)</a></small>
+        - Intro to Machine Learning <small><a class="desc" href="/assets/img/doc/kaggle_ml_intro.png">(cert)</a></small>
+        - Pandas <small><a class="desc" href="/assets/img/doc/kaggle_pd.png">(cert)</a></small>
     - title: 'Coursera <a href="https://www.coursera.org/" class="float-right"><img height="16" src="/assets/img/coursera.svg" title="Coursera" alt="Coursera" class="float-right" style="width: auto"></a>'
       items:
         - <b>Introduction to Healthcare</b> authorized by Stanford University
