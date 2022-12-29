@@ -106,6 +106,12 @@
         - Anaconda
         - LaTeX
 
+- title: 
+  type: list
+  contents:
+    - '<b id="IELTS" title="English language proficiency test">The IELTS Test</b> (academic) overall score = 8'
+    - '<b>Hobbies: </b> Cooking, literature & linguistics, amateur astronomy, traveling, trekking.'
+
 - title: Licenses & Certificates / Selected MOOCs
   type: nested_list
   contents:
@@ -126,9 +132,3 @@
     - title: Others
       items:
         - <a href="https://www.udacity.com/course/introduction-to-python--ud1110">Introduction to Python Programming</a> via Udacity
-
-- title: 
-  type: list
-  contents:
-    - '<b id="IELTS" title="English language proficiency test">The IELTS Test</b> (academic) overall score = 8'
-    - '<b>Hobbies: </b> Cooking, literature & linguistics, amateur astronomy, traveling, trekking.'
