@@ -4,7 +4,7 @@
     - name: Full Name
       value: Mohammad Qodrati
     - name: Languages
-      value: Persian, English
+      value: Persian, <a href="#IELTS">English</a>
     - name: Address
       value: 9781674737, Boshruyeh, South Khorasan, Iran.
     - name: E-mail
@@ -27,7 +27,7 @@
       institution: Boshruyeh, South Khorasan, Iran.
       year: 2007 - 2012
       description:
-        - <a href="/assets/img/doc/highschool-diploma.JPG" title="Mohammad Qodrati's highschool diploma in Natural Sciences and Mathematics">Highschool</a> and <a href="/assets/img/doc/precollege-year-diploma.JPG" title="Mohammad Qodrati's precollege-year grade diploma in Natural Sciences and Mathematics">Precollege-year grade</a> diplomas in Natural Sciences and Mathematics
+        - <a href="/assets/img/doc/highschool-diploma.JPG" title="Mohammad Qodrati's highschool diploma in Natural Sciences and Mathematics">Highschool</a> and <a href="/assets/img/doc/precollege-year-diploma.JPG" title="Mohammad Qodrati's precollege-year grade diploma in Natural Sciences and Mathematics">Precollege-year grade</a> diplomas in Natural Sciences and Mathematics, with GPA of 19.94 / 20 and 20 / 20, respectively.
         - "<strong>Ranked #11</strong> nationwide among ~450K candidates in <i>Konkur 2012</i> (Iranian National University Entrance Exam). Scored 97% in physics, 93% in maths, etc."
 
 - title: Experience
@@ -130,4 +130,5 @@
 - title: 
   type: list
   contents:
-    - '<b>Hobbies:</b> Cooking, literature and linguistics, amateur astronomy, traveling, trekking.'
+    - '<b id="IELTS" title="English language proficiency test">The IELTS Test</b> (academic) overall score = 8'
+    - '<b>Hobbies: </b> Cooking, literature & linguistics, amateur astronomy, traveling, trekking.'
