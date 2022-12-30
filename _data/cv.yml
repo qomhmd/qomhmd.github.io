@@ -109,7 +109,7 @@
 - title:
   type: list
   contents:
-    - '<p title="English language proficiency test" id="IELTS" style="scroll-margin-top: 70px; margin-bottom: 0;"><b>The IELTS Test</b> (academic) overall score = 8</p>'
+    - '<p title="English language proficiency test" id="IELTS" style="scroll-margin-top: 70px; margin-bottom: 0;"><b>The IELTS Test</b> (academic) overall band score = 8</p>'
     - '<b>Hobbies: </b> Cooking, literature & linguistics, amateur astronomy, traveling, trekking.'
 
 - title: Licenses & Certificates / Selected MOOCs
